@@ -12,8 +12,11 @@ app = Flask(__name__)
 def home_page():
     return '''  <h1> Hi There! :  <h1> '''
 
-val = input("Enter First Number: ")
-val2 = input("Enter Second Number: ")
+##val = input("Enter First Number: ")
+##val2 = input("Enter Second Number: ")
+
+val = 5
+val2 = 25
 
 
 @app.route('/mean')
